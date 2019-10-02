@@ -3,8 +3,8 @@ import React from 'react';
 import Card from '../Components/Card';
 
 
-import devgrub from '../assets/images/reactimage.png';
-import youtube from '../assets/images/reactimage.png';
+import tictac from '../assets/images/tictactoe.png';
+import todo from '../assets/images/todo1.png';
 import evverest from '../assets/images/reactimage.png';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -17,18 +17,18 @@ class Carousel extends React.Component{
             items: [
                 {
                     id: 0,
-                    title: 'Dev Grub',
-                    subTitle: 'The cookbook for developers',
-                    imgSrc: devgrub,
-                    link: 'https://devgrub.com',
+                    title: 'React App',
+                    subTitle: 'Tic-tac-toe',
+                    imgSrc: tictac,
+                    link: 'https://react-tictactoe86.herokuapp.com/',
                     selected: false
                 },
                 {
                     id: 1,
-                    title: 'Garrett Love',
-                    subTitle: 'YouTube channel',
-                    imgSrc: youtube,
-                    link: 'https://www.youtube.com/channel/UCxSITxL2JbF229OGCqieVZw',
+                    title: 'React App',
+                    subTitle: 'Todo-App',
+                    imgSrc: todo,
+                    link: 'https://todo-list86.herokuapp.com/',
                     selected: false
                 },
                 {
@@ -37,6 +37,22 @@ class Carousel extends React.Component{
                     subTitle: 'A social network for developers',
                     imgSrc: evverest,
                     link: 'https://github.com/garrettlove8/evverest',
+                    selected: false
+                },
+                {
+                    id: 3,
+                    title: 'React App',
+                    subTitle: 'Tic-tac-toe',
+                    imgSrc: tictac,
+                    link: 'https://react-tictactoe86.herokuapp.com/',
+                    selected: false
+                },
+                {
+                    id: 4,
+                    title: 'React App',
+                    subTitle: 'Tic-tac-toe',
+                    imgSrc: tictac,
+                    link: 'https://react-tictactoe86.herokuapp.com/',
                     selected: false
                 },
             ]
