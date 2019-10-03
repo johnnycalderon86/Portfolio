@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const sendGrid = require('@sendgrid/mail');
 const server = http.Server(app);
-
+const port = process.env.PORT || 3030;
 const app = express();
 
 
@@ -55,5 +55,5 @@ app.post('/api/email', (req, res, next) => {
 });
 
 
-server.listen(process.env.PORT,"0.0.0.0");
+server.listen(port);
 // 3030, "0.0.0.0"
