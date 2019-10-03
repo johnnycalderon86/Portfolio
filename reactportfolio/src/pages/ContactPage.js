@@ -37,7 +37,8 @@ class ContactPage extends React.Component {
             disabled: true
         });
 
-        Axios.post('http://localhost:3030/api/email', this.state)
+// 'http://localhost:3030/api/email'
+        Axios.post(process.env.PORT, this.state)
             .then(res => {
                 if(res.data.success) {
                     this.setState({
