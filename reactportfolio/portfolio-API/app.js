@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const sendGrid = require('@sendgrid/mail');
-const port = process.env.PORT;
+// const port = process.env.PORT || 3030;
 const app = express();
 
 
@@ -27,7 +27,7 @@ app.post('/api/email', (req, res, next) => {
 
     console.log(req.body);
 
-    sendGrid.setApiKey(process.env.SENDGRID_API_KEY);
+    sendGrid.setApiKey('');
     const msg = {
         to: 'johnnycalderondeveloper@gmail.com',
         from: req.body.email,
@@ -54,5 +54,5 @@ app.post('/api/email', (req, res, next) => {
 });
 
 
-app.listen(port);
+app.listen(3030, "0.0.0.0");
 // 3030, "0.0.0.0"

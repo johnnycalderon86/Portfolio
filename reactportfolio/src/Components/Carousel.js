@@ -5,7 +5,8 @@ import Card from '../Components/Card';
 
 import tictac from '../assets/images/tictactoe.png';
 import todo from '../assets/images/todo1.png';
-import evverest from '../assets/images/reactimage.png';
+import css from '../assets/images/css.png';
+import flex from '../assets/images/maxresdefault.jpg';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
@@ -33,28 +34,21 @@ class Carousel extends React.Component{
                 },
                 {
                     id: 2,
-                    title: 'Evverest',
-                    subTitle: 'A social network for developers',
-                    imgSrc: evverest,
-                    link: 'https://github.com/garrettlove8/evverest',
+                    title: 'CSS workshop',
+                    subTitle: 'Using percentage to make the page resonsive',
+                    imgSrc: css,
+                    link: 'https://johnnycalderon86.github.io/Css-fundamentals/',
                     selected: false
                 },
                 {
                     id: 3,
-                    title: 'React App',
-                    subTitle: 'Tic-tac-toe',
-                    imgSrc: tictac,
-                    link: 'https://react-tictactoe86.herokuapp.com/',
+                    title: 'CSS-Flexbox',
+                    subTitle: 'Making a page responsive with flexbox and media queries',
+                    imgSrc: flex,
+                    link: 'https://johnnycalderon86.github.io/CSS-flex1/',
                     selected: false
                 },
-                {
-                    id: 4,
-                    title: 'React App',
-                    subTitle: 'Tic-tac-toe',
-                    imgSrc: tictac,
-                    link: 'https://react-tictactoe86.herokuapp.com/',
-                    selected: false
-                },
+               
             ]
         }
     }
