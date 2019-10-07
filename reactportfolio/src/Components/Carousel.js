@@ -43,7 +43,7 @@ class Carousel extends React.Component{
                 {
                     id: 3,
                     title: 'CSS workshop',
-                    subTitle: 'Using percentage to make the page resonsive',
+                    subTitle: 'Using percentage to make the page responsive',
                     imgSrc: css,
                     link: 'https://johnnycalderon86.github.io/Css-fundamentals/',
                     selected: false

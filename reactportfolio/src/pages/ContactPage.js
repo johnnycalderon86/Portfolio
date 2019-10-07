@@ -17,7 +17,7 @@ function ContactPage(props) {
             <Content>
             <Container>
                 
-            <a id="button" href="tel:322499829854" class="btn btn-accent">Call me</a>
+            <a id="button" href="tel:+32499829854" class="btn btn-accent">Call me</a>
                 <a id="button1"href="mailto:johnnycalderondeveloper@gmail.com"class="btn btn-white">Email</a>
                 <a id="button2"href="https://goo.gl/maps/B2JuXEHkyys5Ae8u9" class="btn btn-white">Location</a>
                 <Row>

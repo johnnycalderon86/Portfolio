@@ -20,7 +20,7 @@ class App extends React.Component {
         { title: 'Contact', path: '/contact' }
       ],
       home: {
-        title: 'React Portfolio',
+        title: 'Portfolio',
         subTitle: 'My projects as a student at Becode',
         text: 'Check out my projects below'
       },
