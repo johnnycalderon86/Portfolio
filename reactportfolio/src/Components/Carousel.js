@@ -2,11 +2,11 @@ import React from 'react';
 
 import Card from '../Components/Card';
 
-
+import memory from '../assets/images/brainweights.webp'
 import tictac from '../assets/images/tictactoe.png';
-import todo from '../assets/images/todo1.png';
+import todo from '../assets/images/todo.jpg';
 import css from '../assets/images/css.png';
-import flex from '../assets/images/maxresdefault.jpg';
+import flex from '../assets/images/flex2.png';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
@@ -34,6 +34,14 @@ class Carousel extends React.Component{
                 },
                 {
                     id: 2,
+                    title: 'Memory Game',
+                    subTitle: 'Javascript memory game',
+                    imgSrc: memory,
+                    link: 'https://todo-list86.herokuapp.com/',
+                    selected: false
+                },
+                {
+                    id: 3,
                     title: 'CSS workshop',
                     subTitle: 'Using percentage to make the page resonsive',
                     imgSrc: css,
@@ -41,7 +49,7 @@ class Carousel extends React.Component{
                     selected: false
                 },
                 {
-                    id: 3,
+                    id: 4,
                     title: 'CSS-Flexbox',
                     subTitle: 'Making a page responsive with flexbox and media queries',
                     imgSrc: flex,

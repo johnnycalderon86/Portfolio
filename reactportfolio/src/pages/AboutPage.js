@@ -11,7 +11,8 @@ function AboutPage(props) {
             <Hero title={props.title} />
             <Content>
             <p>Hi, I'm a junior web developer, currently enrolled in <a href="https://www.becode.org/">
-            Becodes</a> web developer program. Becodes philosophy is to teach you how to learn
+            Becodes</a> web developer program. 
+            Becodes philosophy is to teach you how to learn
             - Seeing that the industry is constantly changing, and new technology is developed daily. 
             </p>
             <p>The skills that I have gained during this course are HTML, CSS, Javascript, PHP, React and NodeJS.</p>
