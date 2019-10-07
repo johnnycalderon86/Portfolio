@@ -37,7 +37,7 @@ class Carousel extends React.Component{
                     title: 'Memory Game',
                     subTitle: 'Javascript memory game',
                     imgSrc: memory,
-                    link: 'https://todo-list86.herokuapp.com/',
+                    link: 'https://johnnycalderon86.github.io/memorygame2/',
                     selected: false
                 },
                 {
